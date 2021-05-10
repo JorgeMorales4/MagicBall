@@ -42,20 +42,21 @@
 
     <TextView
         android:id="@+id/respuestavista"
-        android:layout_width="163dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="60dp"
-        android:text="@string/loading"
-        android:textColor="33F3FF"
+        android:text="aqui la respuesta"
+        android:textColor="#000000"
         android:textSize="26sp"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="410dp"
-        android:layout_height="158dp"
-        app:srcCompat="@drawable/udplogo" />
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        app:srcCompat="@drawable/udplogo"
+        android:contentDescription="@string/todos" />
 
 
 </LinearLayout>
