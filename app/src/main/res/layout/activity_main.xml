@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/conoce_tu_futuro"
-        android:textColor="#000080"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         android:layout_margin="40dp"
@@ -30,12 +32,12 @@
 
     <ImageButton
         android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="184dp"
+        android:layout_width="185dp"
+        android:layout_height="183dp"
         android:layout_gravity="center"
         android:layout_margin="40dp"
-        android:src="@drawable/boton_rojo"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/todo"
+        android:src="@drawable/bola" />
 
 
     <TextView
@@ -48,6 +50,12 @@
         android:textColor="33F3FF"
         android:textSize="26sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="158dp"
+        app:srcCompat="@drawable/udplogo" />
 
 
 </LinearLayout>
