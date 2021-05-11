@@ -6,4 +6,7 @@
     <string name="loading">loading</string>
     <string name="todo">TODO</string>
     <string name="todos">TODO</string>
+    <string name="aqui_la_respuesta" />
+    <string name="quieres_conocer_tu_futuro">Quieres conocer tu futuro?</string>
+    <string name="presiona_magicball">presiona magicball</string>
 </resources>

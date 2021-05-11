@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private ImageButton Ball;
     private TextView respuesta;
-    private String [] respuestaArray ={"Es cierto", "Quizas mueras mañana", "Sin duda", "Sí definitivamente", "Puede confiar en él", "Como yo lo veo, sí",
-            "Lo más probable", "Perspectiva buena", "Sí", "Las señales apuntan a sí", "Respuesta confusa intente de nuevo", "Pregunte de nuevo más tarde",
-            "Mejor no decirte ahora", "No puedo predecir ahora", "Concéntrate y pregunta de nuevo", "No cuentes con eso",
-            "Mi respuesta es no", "Mis fuentes dicen que no", "Outlook no es tan bueno", "Muy dudoso"};
+    private String [] respuestaArray ={"Eso si pasara", "Quizas mueras mañana", "Si", "Si, porque no?", "Que importa? seras millonario", "Como yo lo veo, sí",
+            "Lo más probable", "Good Luck!", "Sí", "mi mamá dice que si", "Respuesta confusa intente de nuevo", "Pregunte de nuevo más tarde",
+            "Mejor no decirte ahora", "Nunca pasara", "Mejor fumate uno", "No cuentes con eso",
+            "Nop", "Mis fuentes dicen que no", "Estoy ocupado", "Muy dudoso"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +27,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Ball = findViewById(R.id.btn);
         //referencia texto
         respuesta = findViewById(R.id.respuestavista);
+
         //proceso
         Ball.setOnClickListener(this);
         Toast.makeText(MainActivity.this, "Consulta tu suerte", Toast.LENGTH_SHORT).show();
+
 
     }
 
