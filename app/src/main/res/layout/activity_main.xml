@@ -30,6 +30,7 @@
         android:layout_margin="10dp"
         android:hint="@string/escribe_tu_mensaje"
         android:inputType="textShortMessage"
+        android:textColor="#00b2ee"
         android:autofillHints="cual es tu pregunta" />
 
     <ImageButton
@@ -55,7 +56,7 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="106dp"
         app:srcCompat="@drawable/udpnegro" />

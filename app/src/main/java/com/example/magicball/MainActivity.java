@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,6 +13,7 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ImageButton Ball;
+    private ImageView logo;
     private TextView respuesta;
     private String [] respuestaArray ={"Eso si pasara", "Quizas mueras mañana", "Si", "Si, porque no?", "Que importa? seras millonario", "Como yo lo veo, sí",
             "Lo más probable", "Good Luck!", "Sí", "mi mamá dice que si", "Respuesta confusa intente de nuevo", "Pregunte de nuevo más tarde",
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Ball = findViewById(R.id.btn);
         //referencia texto
         respuesta = findViewById(R.id.respuestavista);
+        //probando logo
+        logo = findViewById(R.id.logo);
 
         //proceso
         Ball.setOnClickListener(this);
